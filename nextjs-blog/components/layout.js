@@ -3,7 +3,7 @@
  * @Email: cnfrank527@gmail.com
  * @Date: 2022-01-29 14:32:59
  * @LastEditors: Frank Zhou
- * @LastEditTime: 2022-09-27 16:45:19
+ * @LastEditTime: 2022-09-27 16:48:16
  * @Description: file content
  * @FilePath: /nextjs-blog/components/layout.js
  */
@@ -24,6 +24,14 @@ export default function Layout({ children, home }) {
         <meta
           name="description"
           content="FrankDevs Site Powered by NextJs"
+        />
+         <meta
+          name="author"
+          content="Frank Zhou"
+        />
+        <meta
+          name="Email"
+          content="cnfrank527@gmail.com"
         />
         <meta
           property="og:image"
