@@ -1,10 +1,19 @@
+/*
+ * @Author: Frank Zhou
+ * @Email: cnfrank527@gmail.com
+ * @Date: 2022-01-29 14:32:59
+ * @LastEditors: Frank Zhou
+ * @LastEditTime: 2022-09-27 14:51:34
+ * @Description: file content
+ * @FilePath: /nextjs-blog/components/layout.js
+ */
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = '[Your Name]'
+const name = 'FrankDevs'
 export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({ children, home }) {
