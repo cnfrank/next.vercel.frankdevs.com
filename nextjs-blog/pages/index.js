@@ -1,3 +1,12 @@
+/*
+ * @Author: Frank Zhou
+ * @Email: cnfrank527@gmail.com
+ * @Date: 2022-01-29 14:32:59
+ * @LastEditors: Frank Zhou
+ * @LastEditTime: 2022-09-27 16:41:48
+ * @Description: file content
+ * @FilePath: /nextjs-blog/pages/index.js
+ */
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
@@ -12,10 +21,12 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
         <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          Experienced full-stack web developer with over 17 years of experience
+          in web development. Excellent reputation for resolving problems and
+          improving customer satisfaction. To seek and maintain a position that
+          offers professional challenges utilizing interpersonal skills,
+          excellent time management and problem-solving skills.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -42,7 +53,7 @@ export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
   return {
     props: {
-      allPostsData
-    }
+      allPostsData,
+    },
   }
 }

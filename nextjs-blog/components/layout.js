@@ -3,7 +3,7 @@
  * @Email: cnfrank527@gmail.com
  * @Date: 2022-01-29 14:32:59
  * @LastEditors: Frank Zhou
- * @LastEditTime: 2022-09-27 14:51:34
+ * @LastEditTime: 2022-09-27 16:45:19
  * @Description: file content
  * @FilePath: /nextjs-blog/components/layout.js
  */
@@ -14,7 +14,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'FrankDevs'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'FrankDevs Site Powered by NextJs'
 
 export default function Layout({ children, home }) {
   return (
@@ -23,7 +23,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="FrankDevs Site Powered by NextJs"
         />
         <meta
           property="og:image"
